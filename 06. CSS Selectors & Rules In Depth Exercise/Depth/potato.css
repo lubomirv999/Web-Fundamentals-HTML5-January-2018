@@ -1,0 +1,172 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,900";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+nav, header {
+    background-color: #C0A991;
+    color: #fff;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+    float: left;
+}
+
+.nav-primary {
+    float: right;
+    margin: 30px;
+}
+
+li.nav-item {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+li.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-item.button-cta {
+    border: solid 2px #fff;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+.nav-item.button-cta:hover {
+    background-color: #867260;
+    cursor: pointer;
+    border: solid 2px #867260;
+}
+
+header {
+    text-align: center;
+    background: radial-gradient(
+            rgba(192, 169, 145, 1) 0%,
+            rgba(192, 169, 145, 1) 59%,
+            rgba(168, 143, 121, 1) 100%
+    );
+}
+
+.header-title {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 150px 100px 20px;
+}
+
+.header-subtitle {
+    font-weight: 300;
+}
+
+header img {
+    margin: 40px;
+    width: 350px;
+}
+
+div.features {
+    background: url("images/potato-background.png") center;
+    background-size: cover;
+    height: 700px;
+}
+
+div.features h1, div.features h3 {
+    text-align: center;
+}
+
+.features-title {
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-top: 160px;
+    padding-bottom: 20px;
+}
+
+.features-subtitle {
+    font-weight: 300;
+    width: 520px;
+    margin: auto;
+}
+
+div.features img {
+    display: block;
+    width: 450px;
+    margin: auto;
+}
+
+div.buy-now {
+    text-align: center;
+}
+
+.order-title {
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 30px 0 30px;
+}
+
+.potato {
+    display: inline-block;
+    border-right: solid #000 1px;
+    padding: 30px;
+    height: 300px;
+}
+
+.potato-title {
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.potato-features {
+    list-style: none;
+}
+
+.potato-description {
+    padding: 10px;
+    font-weight: 300;
+}
+
+.potato-price {
+    font-weight: 300;
+    padding: 5px;
+}
+
+.btn-order {
+    background: none;
+    border: solid #91C91F 2px;
+    border-radius: 15px;
+    color: #91C91F;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.btn-order:hover {
+    background: #91C91F;
+    color: #fff;
+    cursor: pointer;
+}
+
+div.buy-now img {
+    width: 110px;
+    height: 90px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #867260;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    margin-top: 20px;
+}

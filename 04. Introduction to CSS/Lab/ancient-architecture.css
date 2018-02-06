@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #e2d7aa;
+    color: #000;
+    font-size: 16px;
+    width: 1180px;
+    margin: auto;
+}
+
+img {
+    width: 1100px;
+}
+
+img.img-container {
+    width: 1600px;
+    height: 450px;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Indie Flower", cursive;
+}
+
+nav {
+    margin: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:first-of-type a{
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+nav ul li:last-of-type a {
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+article {
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+}
+
+article img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+article p:last-of-type span:first-of-type a::before {
+    content: url("images/comment.png");
+    position: relative;
+    right: 5px;
+    top: 7px;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+p:first-letter {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+}
+
+span a {
+    background: url("images/bg2.jpg");
+    padding: 10px;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    margin: 40px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.readmore a, .comments a {
+    text-transform: uppercase;
+}
