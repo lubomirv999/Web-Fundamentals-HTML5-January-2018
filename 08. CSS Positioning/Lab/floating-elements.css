@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    width: 365px;
+    text-align: justify;
+}
+
+div{
+    background-color: #6495ed;
+    width: 130px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+.right{
+    float: right;
+    margin-left: 10px;
+}
+
+.center{
+    margin: auto;
+}

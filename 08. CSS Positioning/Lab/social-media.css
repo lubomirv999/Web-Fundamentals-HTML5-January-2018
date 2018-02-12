@@ -1,0 +1,82 @@
+footer {
+    text-align: center;
+    background-color: #292929;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    color: #b5b498;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.container div {
+    display: inline-block;
+}
+
+.facebook, .twitter, .youtube, .linkedin {
+    cursor: pointer;
+}
+
+.facebook {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 58px;
+}
+
+.linkedin {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 58px;
+    background-position: -192px 0;
+}
+
+.youtube {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 58px;
+    background-position: 326px 0;
+}
+
+.twitter {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 58px;
+    background-position: 772px 0;
+}
+
+.facebook:hover {
+    background-position: 0 60px;
+}
+
+.linkedin:hover {
+    background-position: 646px 62px;
+}
+
+.youtube:hover {
+    background-position: 325px 60px;
+}
+
+.twitter:hover {
+    background-position: -66px 60px;
+}

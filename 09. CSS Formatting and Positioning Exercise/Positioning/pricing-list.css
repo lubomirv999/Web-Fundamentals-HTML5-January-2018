@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Volkan';
+    src: url(fonts/Vollkorn-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
+main {
+    margin: 20px;
+}
+
+section > header h1 {
+    text-transform: uppercase;
+}
+
+article {
+    display: inline-block;
+    border: solid 2px #F3F4F6;
+    position: relative;
+    width: 270px;
+    height: 550px;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.header, .subtitle, .price {
+    font-family: 'Volkan', serif;
+    color: #778495;
+}
+
+.header {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+header .subtitle {
+    background-color: #EBEFF2;
+    line-height: 60px;
+    padding: 15px;
+}
+
+.price {
+    font-size: 60px;
+}
+
+.main-text {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    border-bottom: solid 2px #F3F4F6;
+    color: #778495;
+    text-align: left;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+button {
+    background: #DDD;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    padding: 15px 50px;
+    color: #fff;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+article:hover .subtitle{
+    background-color: #65D3E2;
+}
+
+article:hover .price{
+    color: #65D3E2;
+}
+
+article:hover button{
+    background-color: #65D3E2;
+}

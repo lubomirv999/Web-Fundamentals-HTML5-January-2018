@@ -1,0 +1,180 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    font-family: 'Comfortaa', sans-serif;
+    width: 280px;
+    float: left;
+}
+
+aside header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav li.nav-item {
+    list-style: none;
+    padding: 10px 15px 25px 0;
+}
+
+.nav li.nav-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    color: #b1bfc6;
+}
+
+.nav li.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav li.nav-item:hover a {
+    color: #333;
+}
+
+aside figure {
+    width: 100px;
+    margin: auto;
+}
+
+figcaption p {
+    text-transform: uppercase;
+    color: #b1bfc6;
+}
+
+aside img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+main {
+    background-color: rgba(177, 191, 198, 0.3);
+    width: 960px;
+    float: right;
+    padding: 10px;
+}
+
+main > header {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+main > header span {
+    color: #91a5af;
+}
+
+main > header button {
+    text-transform: uppercase;
+    border: solid 3px #ff7739;
+    border-radius: 20px;
+    background-color: #ff7739;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+main > header button:hover {
+    background: none;
+    border: solid 3px #ff7739;
+    color: #ff7739;
+}
+
+main > header button:hover .fa.fa-angle-down {
+    color: #ff7739;
+}
+
+.fa.fa-angle-down {
+    color: #fff;
+}
+
+section {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+section > header h3 {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+section > header p {
+    text-transform: uppercase;
+}
+
+section > header h3, section > header p {
+    margin-left: 10px;
+}
+
+article {
+
+    background-color: #fff;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+    position: relative;
+    margin: 10px;
+}
+
+.fade p {
+    color: #b1bfc6;
+}
+
+.fade img {
+    opacity: 0.6;
+}
+
+article figure {
+    width: 250px;
+    margin: auto;
+}
+
+article figcaption p {
+    text-transform: capitalize;
+    color: #333;
+}
+
+article img {
+    width: 250px;
+    margin-top: 60px;
+}
+
+article figcaption {
+    margin-left: 20px;
+}
+
+article button {
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 80px;
+    left: -15px;
+    width: 90px;
+    color: #fff;
+    padding: 7px 10px;
+}
+
+.rented {
+    background-color: #b1bfc6;;
+}
+
+.listed {
+    background-color: #68BB61;;
+}
+
+.draft {
+    background-color: #91a5af;
+}

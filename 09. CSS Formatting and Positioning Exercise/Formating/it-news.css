@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    font-family: 'Volkorn', sans-serif;
+    width: 1200px;
+    color: #72aeb4;
+    margin: auto;
+}
+
+header h2 {
+    color: #000;
+}
+
+article {
+    display: inline-block;
+}
+
+.article-title {
+    color: #72aeb4;
+    font-weight: 300;
+}
+
+.article-time {
+    font-style: italic;
+    color: #000;
+}
+
+.article-content {
+    text-align: justify;
+    color: #000;
+}
+
+.article-image {
+    display: inline-block;
+    border: solid 2px #E6E5E5;
+    padding: 10px;
+}
+
+figure {
+    float: left;
+}
+
+.article-image img {
+    width: 300px;
+}
+
+a {
+    color: #72aeb4;
+}
