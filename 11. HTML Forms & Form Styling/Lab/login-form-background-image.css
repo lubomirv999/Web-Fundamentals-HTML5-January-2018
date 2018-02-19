@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com/css?family=Oxygen";
+
+body{
+    background-color: #927057;
+    color: #ffffff;
+    padding: 20px;
+}
+
+main h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+main{
+    background-color: #d5c395;
+    width: 470px;
+    padding: 20px 60px 20px 60px;
+    margin: 50px auto 0;
+}
+
+main::before {
+    position: absolute;
+    top: 235px;
+    left: 600px;
+    height: 35px;
+    width: 68px;
+    background: url(images/triangle.png) no-repeat 0 0;
+    content: '';
+}
+
+.image-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container img{
+    border: 5px solid #d5c395;
+    height: 123px;
+}
+
+input[type="text"]{
+    background: url("images/user.png") no-repeat left #ffffff;
+    background-position-x: 15px;
+    margin: 10px 0;
+}
+
+input[type="password"]{
+    background: url("images/pass.png") no-repeat left #ffffff;
+    background-position-x: 15px;
+    margin: 10px 0;
+}
+
+input{
+    background-color: #efe1c4;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    outline: none;
+    font-size: 1.1rem;
+    width: 85%;
+    color: #927057;
+    padding: 10px 10px 10px 60px;
+}
+
+input[type="submit"]{
+    background-color: #927057;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    max-width: 550px;
+    font-size: 1.5rem;
+    color: #d5c395;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    font-size: 1em;
+    text-align: center;
+    color: #EFE1C4;
+}

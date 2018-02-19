@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 60%;
+    margin: 50px auto;
+}
+
+form {
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px 0 40px rgba(66, 201, 202, 0.3);
+    height: 350px;
+    width: 40%;
+    padding: 20px 100px 30px 20px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form-group button {
+    outline: none;
+    margin-top: 20px;
+}
+
+.form-group input, .form-group select {
+    border: none;
+    outline: none;
+}
+
+.form-group select {
+    background-color: #42C9CA;
+    color: #ffffff;
+    -webkit-appearance: none;
+    width: 165px;
+    margin-left: 15px;
+    padding: 5px 20px 5px 5px;
+}
+
+.form-group input::-webkit-input-placeholder {
+    color: #42C9CA;
+}
+
+.form-group input {
+    border-bottom: solid 2px #42C9CA;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    margin-left: 15px;
+}
+
+.product {
+    display: flex;
+}
+
+.product figure {
+    background: linear-gradient(to bottom, #6afdc9 0%, #42c9ca 100%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 370px;
+    padding-top: 30px;
+}
+
+.product img {
+    width: 300px;
+}
+
+.product header h1, .product header h2{
+    font-family: 'Anton', sans-serif;
+    padding: 10px 0;
+}
+
+.product .form-group button {
+    background: none;
+    border: solid 2px #42C9CA;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #42C9CA;
+    padding: 5px 20px;
+}
+
+.product .form-group button:hover {
+    background-color: #42C9CA;
+    cursor: pointer;
+    color: #ffffff;
+}

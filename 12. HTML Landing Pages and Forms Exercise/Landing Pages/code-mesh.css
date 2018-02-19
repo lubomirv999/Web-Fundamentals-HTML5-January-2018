@@ -1,0 +1,295 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+body > header {
+    background: url("images/header-bg.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+body > header h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    float: left;
+    padding: 20px;
+}
+
+body > header h3:hover {
+    cursor: pointer;
+    color: #fa692e;
+}
+
+.nav {
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+
+.background-layer {
+    background-color: rgba(60, 63, 73, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.moto {
+    position: absolute;
+    width: 550px;
+    top: 230px;
+    left: 330px;
+    font-size: 20px;
+}
+
+.moto p span {
+    font-weight: bold;
+}
+
+header .introduction {
+    position: absolute;
+    top: 430px;
+    left: 30px;
+}
+
+header .introduction article {
+    display: inline-block;
+    width: 280px;
+    height: 160px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+header .introduction article:hover {
+    border-bottom: solid 10px #fa692e;
+    cursor: pointer;
+}
+
+header .introduction p {
+    font-size: 11px;
+}
+
+.intro-icon {
+    display: inline-block;
+    position: absolute;
+    top: -50px;
+}
+
+.description {
+    position: relative;
+    height: 450px;
+    padding-top: 50px;
+}
+
+.description article {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    padding: 10px 30px;
+}
+
+.description .quote h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.description .quote footer {
+    text-transform: capitalize;
+    text-align: right;
+    color: #3c3f49;
+}
+
+.info p {
+    border-bottom: solid 2px #E2E2E2;
+    color: #3c3f49;
+    padding-bottom: 40px;
+}
+
+.box {
+    background-color: rgba(250, 105, 46, 0.8);
+    position: absolute;
+    top: 0;
+    right: 90px;
+    width: 400px;
+    height: 470px;
+}
+
+.schedule {
+    background-color: #3c3f49;
+    height: 500px;
+}
+
+.schedule header {
+    width: 400px;
+    color: #fff;
+    padding: 20px 0 40px 90px;
+}
+
+.schedule article {
+    display: block;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 20px 30px 100px 140px;
+}
+
+.schedule article time {
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.schedule article .schedule-icon {
+    margin-right: 20px;
+}
+
+.schedule .left-schedule, .schedule .right-schedule {
+    display: inline-block;
+}
+
+.speakers {
+    height: 800px;
+    margin: 40px 50px;
+}
+
+.speakers header {
+    margin-left: 40px;
+}
+
+.speakers header h2 {
+    width: 500px;
+    text-align: left;
+}
+
+.speakers header p {
+    text-align: right;
+}
+
+.speakers figure {
+    display: inline-block;
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.25);
+    background-color: #FAFAFA;
+    margin-right: 5px;
+}
+
+.speakers figure img {
+    width: 200px;
+}
+
+.speakers figcaption {
+    padding-left: 30px;
+}
+
+.speakers .name {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.speakers .profession {
+    text-transform: uppercase;
+    color: #E4D3CB;
+}
+
+.speaker-icon:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+
+.special-events {
+    background-color: #3C3E4A;
+    text-align: center;
+    height: 370px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.special-events .subscribe {
+    border: solid 2px #7E7E86;
+    width: 550px;
+    margin: auto;
+    padding: 40px 150px 50px 150px;
+}
+
+.special-events .subscribe h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.special-events .form-group {
+    padding-top: 30px;
+}
+
+.special-events .form-group input {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #fa692e;
+    outline: none;
+    color: #fff;
+}
+
+.special-events .form-group input::-webkit-input-placeholder {
+    color: #FAFAFA;
+}
+
+.special-events .form-group button {
+    background: #fa692e;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    color: #FAFAFA;
+    outline: none;
+    padding: 5px 15px;
+    margin-left: 40px;
+}
+
+.special-events .form-group button:hover {
+    background: #333;
+    cursor: pointer;
+}
+
+body > footer {
+    background-color: #292A2F;
+    height: 80px;
+}
+
+body > footer p {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+body > footer p:first-of-type {
+    float: left;
+    color: #fff;
+}
+
+body > footer p:nth-of-type(2) {
+    float: right;
+    width: 250px;
+    color: #8D8E93;
+}

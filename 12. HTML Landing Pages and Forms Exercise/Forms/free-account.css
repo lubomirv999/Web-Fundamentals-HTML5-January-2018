@@ -1,0 +1,144 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body {
+    background-color: #EEEEEE;
+}
+
+main {
+    background-color: #fff;
+    font-family: 'Tahoma', sans-serif;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+}
+
+main header {
+    text-align: center;
+    border-bottom: solid 1px #D5D5D5;
+}
+
+main header h1 {
+    font-size: 24px;
+}
+
+#login-create-account {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#login-create-account form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.create-account {
+    width: 380px;
+}
+
+#login-create-account .form-group {
+    position: relative;
+}
+
+#login-create-account label {
+    display: block;
+    font-weight: bold;
+}
+
+#login-create-account input {
+    border: solid 1px #DCDCDC;
+    border-radius: 3px;
+    width: 250px;
+    outline: none;
+    padding: 10px 10px;
+    margin: 10px 5px;
+}
+
+#login-create-account input[type="checkbox"] {
+    width: 20px;
+    transform: scale(1.5);
+}
+
+#login-create-account label > input {
+    display: inline;
+    float: left;
+}
+
+#login-create-account label.checkbox {
+    font-weight: normal;
+    font-size: 14px;
+    width: 300px;
+}
+
+#login-create-account button {
+    background-color: #EEEEEE;
+    border: solid 1px #DCDCDC;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 30px;
+}
+
+#login-create-account button:hover {
+    background-color: #AFDF67;
+    cursor: pointer;
+}
+
+.create-account button {
+    margin-top: 15px;
+}
+
+.login button {
+    margin-left: 5px;
+}
+
+.login a {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #EB96B3;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+#login-create-account .form-group {
+    position: relative;
+}
+
+#login-create-account .form-group span {
+    position: absolute;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 1px;
+}
+
+#login-create-account .form-group span.check {
+    background-color: #00FF00;
+}
+
+#login-create-account .form-group span.x {
+    background-color: #FF0500;
+}
+
+#login-create-account .form-group span.left.check {
+    top: 15px;
+    left: 240px;
+}
+
+#login-create-account .form-group span.right.check {
+    top: 15px;
+    right: 20px;
+}
+
+#login-create-account .form-group span.left.x {
+    top: 15px;
+    left: 240px;
+}
+
+#login-create-account .form-group span.right.x {
+    top: 15px;
+    right: 20px;
+}

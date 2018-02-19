@@ -1,0 +1,139 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+    font-family: 'Tahoma', 'Helvetica', sans-serif;
+    font-size: 13px;
+}
+
+body > header {
+    background-color: #F1F1F1;
+    border: dashed 2px #DCDCDC;
+    width: 80%;
+    color: #329EE5;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+main {
+    width: 85%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.basic-information header {
+    float: left;
+    width: 78%;
+}
+
+.basic-information header h3 {
+    padding-bottom: 10px;
+}
+
+.search {
+    float: right;
+}
+
+.search label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+input {
+    border: solid 1px #DCDCDC;
+    height: 25px;
+    outline: none;
+}
+
+.search .form-group {
+    position: relative;
+}
+
+.search span.icon {
+    font-family: 'FontAwesome', serif;
+    font-size: 17px;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+}
+
+.reservation {
+    display: flex;
+    border-top: dashed 2px #DCDCDC;
+    border-bottom: dashed 2px #DCDCDC;
+    margin-top: 100px;
+}
+
+.personal-details {
+    float: left;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.personal-details label, .reservation-request > label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    border: solid 1px #DCDCDC;
+    height: 25px;
+    outline: none;
+}
+
+.personal-details input {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.reservation-request {
+    float: right;
+    width: 500px;
+}
+
+.reservation-request .form-group {
+    display: inline-block;
+}
+
+.reservation-request label {
+    display: block;
+    margin-top: 5px;
+}
+
+.reservation-request select{
+    width: 200px;
+}
+
+.reservation select {
+    display: inline-block;
+}
+
+.reservation input[type='date'] {
+    width: 200px;
+}
+
+button {
+    background-color: #329EE5;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    float: right;
+    color: #ffffff;
+    outline: none;
+    padding: 5px 30px;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #3BBC96;
+    cursor: pointer;
+}

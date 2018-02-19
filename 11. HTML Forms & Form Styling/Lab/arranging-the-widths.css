@@ -1,0 +1,16 @@
+form {
+    width: 350px;
+    margin: 70px auto;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 60%;
+}
+
+form select {
+    width: 61%;
+}

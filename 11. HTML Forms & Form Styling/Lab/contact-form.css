@@ -1,0 +1,51 @@
+form {
+    background-color: #F7F7F7;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    width: 40%;
+    height: 50%;
+    color: #888;
+    padding: 10px 30px 10px 20px;
+    margin: 40px auto;
+}
+
+.input-group {
+    padding: 10px;
+}
+
+.input-group input, .input-group select {
+    border: solid 1px #DEDEDE;
+    height: 25px;
+}
+
+.input-group input, .input-group textarea {
+    vertical-align: middle;
+    width: 54%;
+    margin-left: 10px;
+}
+
+.input-group textarea {
+    border: solid 1px #DEDEDE;
+    resize: none;
+    margin-left: 27px;
+}
+
+.input-group select {
+    width: 55.5%;
+    margin-left: 35px;
+}
+
+form header {
+    border-bottom: solid 1px #888;
+}
+
+.input-group button {
+    background-color: #E27575;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px #888;
+    width: 170px;
+    height: 30px;
+    color: #fff;
+    margin-left: 100px;
+
+}
