@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    width: 72%;
+    margin: 10px 0 0 20px;
+}
+
+aside{
+    width: 28%;
+}
+
+h1{
+    font-size: 50px;
+    color: #00004d;
+}
+
+#info{
+    text-align: left;
+    font-size: 0.9em;
+    width: 100%;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+form{
+    color: gray;
+}
+
+.names, .data{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+label{
+    width: 50%;
+}
+
+label p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.names input, .data input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 97%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    background-color: darkorange;
+    border: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 12px 40px;
+    color: #FFFFFF;
+}
+
+aside{
+    color: #484848;
+    margin: 50px 0;
+}
+
+aside article{
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+aside h2{
+    font-size: 1.2em;
+}
+
+aside article p{
+    display: inline-block;
+    margin: 0;
+}
+
+.fa{
+    font-size: 1.2em;
+    color: lightseagreen;
+}
+
+#phone-paragraph{
+    margin-left: 19px;
+}
+
+#address{
+    margin-left: 15px;
+}
+
+.calendar{
+    margin-left: 22px;
+}

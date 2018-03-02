@@ -1,0 +1,214 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+}
+
+header{
+    background: url("images/background-image.png");
+    background-size: cover;
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    margin-left: 40px;
+}
+
+.logo-container span{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    margin-right: 100px;
+}
+
+a:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 rgba(150, 150, 150, 1);
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+header p{
+    text-shadow: 1px 1px 0 rgba(150, 150, 150, 1);
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #ffbf00;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(150, 150, 150, 1);
+    color: white;
+    padding: 13px 70px;
+    margin-bottom: 100px;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.life-style{
+    display: flex;
+    color: white;
+}
+
+.life-style article{
+    text-align: center;
+    width: 50%;
+}
+
+.first{
+    background: url("images/headphone-yellow.png");
+    background-size: cover;
+    background-color: deepskyblue;
+}
+
+.second{
+    background: url("images/headphone-black.png");
+    background-size: cover;
+}
+
+.life-style h3{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 rgba(150, 150, 150, 1);
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.life-style p{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(150, 150, 150, 1);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.headphones{
+    background-color: #F0F0F0;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.headphones h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.products article{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.products h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+.products p{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+
+.life-style-first{
+    background: url("images/showcase1.png");
+    background-size: cover;
+}
+
+.life-style-second{
+    background: url("images/showcase2.png");
+    background-size: cover;
+    background-color: deeppink;
+}
+
+.blog{
+    background-color: #F0F0F0;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.blog-members{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.blog-members article{
+    width: 31%;
+}
+
+.blog h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-members img{
+    box-shadow: 1px 4px 1px 1px rgba(0,0,0,0.3);
+    width: 80%;
+    height: 50%;
+}
+
+.post-date, .data{
+    font-size: 15px;
+    font-weight: bold;
+    color: #B0B0B0;
+}
+
+.moto{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.blog-members a{
+    text-transform: uppercase;
+    color: deepskyblue;
+}

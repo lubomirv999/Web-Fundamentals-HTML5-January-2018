@@ -1,0 +1,156 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+header{
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+    filter: brightness(90%);
+}
+
+header img{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+nav{
+    float: right;
+    margin-right: 100px;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-right: 15px;
+    color: #FFFFFF;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #FFFFFF;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+main>article{
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+main img{
+    border-radius: 5px;
+}
+
+.vacation-info{
+    background-color: white;
+    border-radius: 5px;
+    width: 375px;
+    height: 50px;
+}
+
+.vacation-info p{
+    display: inline-block;
+}
+
+article p:first-of-type{
+    float: left;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+article p:last-of-type{
+    float: right;
+    font-size: 1.2em;
+    padding-right: 30px;
+}
+
+#users-info{
+    padding-top: 10px;
+    background-color: white;
+}
+
+#users-info-section{
+    padding-bottom: 50px;
+    margin: 50px 0;
+}
+
+#users-info article{
+    display: inline-block;
+    width: 30%;
+}
+
+#users-info img{
+    border-radius: 50%;
+}
+
+#users-info h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#users-info p{
+    font-size: 0.8em;
+    color: gray;
+    width: 100%;
+}
+
+footer{
+    color: gray;
+}
+
+footer p{
+    display: inline-block;
+}
+
+footer p:first-of-type{
+    text-align: left;
+    float: left;
+    margin-left: 40px;
+}
+
+#footer-info{
+    float: right;
+    margin-right: 60px;
+}
+
+#footer-info p{
+    padding-right: 20px;
+}
