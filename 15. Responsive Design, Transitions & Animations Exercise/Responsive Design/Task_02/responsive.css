@@ -1,0 +1,58 @@
+@media screen and (min-width: 960px) {
+    #wrapper {
+        width: 80%;
+    }
+}
+
+/* These are working by default
+
+@media screen and (min-width: 760px) and (max-width: 960px) {
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 760px) {
+
+}
+
+*/
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
+    body #wrapper > header h1 a img {
+        margin: auto;
+    }
+
+    body #wrapper > header h1 a span {
+        text-align: center;
+    }
+
+    body #wrapper > header nav ul li, body #wrapper > section {
+        display: block;
+        width: 100%;
+    }
+
+    body #wrapper > aside {
+        display: flex;
+        width: 100%;
+        flex-flow: row;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header img {
+        margin: auto;
+    }
+
+    body #wrapper > header h1 a span {
+        text-align: center;
+    }
+
+    body #wrapper > header nav ul li, body #wrapper > section {
+        display: block;
+        width: 100%;
+    }
+
+    body #wrapper > aside {
+        display: block;
+        width: 100%;
+    }
+}

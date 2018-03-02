@@ -1,0 +1,59 @@
+/*TODO write CSS here*/
+body{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+body > *{
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header{
+    background-color: tomato;
+}
+
+.main-article{
+    text-align: left;
+    background-color: deepskyblue;
+}
+
+.aside-1{
+    background-color: gold;
+}
+
+.aside-2{
+    background-color: hotpink;
+}
+
+.footer{
+    background-color: lightgreen;
+}
+
+@media all and  (min-width: 800px) {
+    .main-article{
+        flex: 3 0;
+        order: 1;
+    }
+
+    .aside-1{
+        order: 0;
+    }
+
+    .aside-2{
+        order: 2;
+    }
+
+    .footer{
+        order: 3;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .aside{
+        flex: 1 0;
+    }
+}

@@ -1,0 +1,57 @@
+@media screen and (min-width: 731px) and (max-width: 1200px) {
+    #wrapper{
+        width: 100%;
+    }
+
+    main section{
+        width: 94%;
+    }
+
+    main aside{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 730px) {
+    main {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    header nav > ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav > ul li {
+        width: 100%;
+    }
+
+    main {
+        margin-top: 190px;
+    }
+
+    article h1, article h2 {
+        text-align: center;
+    }
+
+    main section > div article {
+        background-color: white;
+    }
+
+    main section > div article h3 {
+        text-align: center;
+    }
+
+    main section > div {
+        margin-bottom: 150px;
+    }
+
+    main section > div > div {
+        background-color: #b7cc89;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+}

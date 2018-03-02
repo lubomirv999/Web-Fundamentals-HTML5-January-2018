@@ -1,0 +1,126 @@
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    .main-nav ul li:last-of-type {
+        display: inline-block;
+    }
+
+    .main-nav ul li:last-of-type:before {
+        display: none;
+    }
+
+    .hero-head h1 {
+        padding-left: 3%;
+    }
+
+    .hero-head .goal {
+        padding-left: 3%;
+    }
+
+    .wrapper {
+        width: 98%;
+        padding-left: 2%;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+        padding-left: 3%;
+    }
+
+    .content-wrap.two-col .col {
+        box-sizing: border-box;
+    }
+
+    .sponsors .module-text {
+        box-sizing: border-box;
+        padding-left: 10px
+    }
+
+    .main-foot .wrapper {
+        display: inline-block;
+    }
+
+    .main-foot address, .main-foot nav {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hero-head {
+        text-align: center;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .hero-head .goal {
+        float: none;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-head {
+        background: #181621 none;
+        min-height: 500px;
+    }
+
+    .hero-head h1 {
+        float: none;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 40px;
+    }
+
+    .bordered {
+        text-align: center;
+    }
+
+    .content-wrap h3 {
+        font-size: 30px;
+    }
+
+    .button {
+        display: block;
+    }
+
+    .content.woodsmoke {
+        text-align: center;
+    }
+
+    .large-text-link {
+        font-size: 20px;
+    }
+
+    .sponsorship, .membership-type {
+        padding-bottom: 10%;
+    }
+
+    .button-list li {
+        display: block;
+    }
+
+    .sponsors h3 {
+        font-size: 30px;
+    }
+
+    .main-foot {
+        text-align: center;
+    }
+
+    .main-foot .bottom .copyright {
+        float: none;
+        text-align: center;
+    }
+
+    .main-foot address, .main-foot nav {
+        display: block;
+        margin: auto;
+    }
+
+    .main-nav-trigger {
+        display: inline-block;
+        float: right;
+        top: 15px;
+    }
+}
